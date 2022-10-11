@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Will's Homepage</title>
+
+    <!-- Bootstrap Reference: https://getbootstrap.com/docs/5.2/getting-started/introduction/ - Accessed on 08/10/2022 -->
+    <!-- Responsive Behaviour on Mobile Devices -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS Link https://getbootstrap.com/docs/5.2/getting-started/introduction/ - Accessed on 08/10/2022 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Bootstrap JavaScript Link https://getbootstrap.com/docs/5.2/getting-started/introduction/ - Accessed on 08/10/2022 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="title">
+        <h2>Welcome</h2>
+        <h4>Website by Will Woodward</h4>
+    </div>
+    <div class="main">
+        <!-- Bootstrap Columns - https://getbootstrap.com/docs/5.2/layout/columns/ - Accessed 08/10/2022 -->
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col">
+                    <h5>Paragraphs</h5>
+                    <div class="paragraph">
+                        <p>
+                            Hello, this is a paragraph. I will be experimenting with certain features in CSS, such as chaning the font,
+                            alignment, and block-level tag properties.
+                        </p>
+                        <p class='left'>
+                            This is a paragraph that is aligned to the left.
+                        </p>
+                        <p class='right'>
+                            This is a paragraph that is aligned to the right.
+                        </p>
+                        <p class="font">
+                            And this is a paragraph with a different font.
+                        </p>
+                    </div>
+                    <div class ="paragraph">
+                        <p>This is a new container, and the text colour here will be <strong>bold</strong>.</p>
+                        <p class="gradient">This text will be purple.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <h5>Lists Experiment</h5>
+                    <ul>
+                        <li>This is an unordered list</li>
+                        <li>It uses bullet points</li>
+                        <li>It contains list items</li>
+                    </ul>
+                    <ol>
+                        <li>This is an ordered list</li>
+                        <li>It uses numbers</li>
+                        <li>It also contains list items</li>
+                    </ol>
+                </div>
+                <div class="col">
+                    <h5>Form</h5>
+                    <form>
+                        <div class="question">
+                            <label for="fname"><h6>First Name:</h6></label><br>
+                            <input type="text" id="fname" name="fname"><br>
+                        </div>
+
+                        <div class="question">
+                            <h6>What came first?</h6>
+                            <label for="egg">Egg</label>
+                            <input type="radio" id="egg" name="egg"><br>
+                            <label for="chicken">Chicken</label>
+                            <input type="radio" id="chicken" name="chicken"><br>
+                        </div>
+
+                        <div class="question">
+                            <h6>How do you like your eggs?</h6>
+                            <label for="boiled">Boiled</label>
+                            <input type="checkbox" id="boiled" name="boiled"><br>
+                            <label for="poached">Poached</label>
+                            <input type="checkbox" id="poached" name="poached"><br>
+                            <label for="fried">Fried</label>
+                            <input type="checkbox" id="fried" name="fried"><br>
+                            <label for="scrambled">Scrambled</label>
+                            <input type="checkbox" id="scrambled" name="scrambled"><br>
+                        </div>
+
+                        <div class="question">
+                            <input type="submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
